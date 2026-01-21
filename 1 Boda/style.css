@@ -1,0 +1,37 @@
+body {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    background-color: #f9f4f0;
+    margin: 0;
+}
+
+.hidden { display: none; }
+
+/* Estilo básico del sobre */
+#sobre-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    width: 300px;
+    height: 200px;
+    background-color: #d4a373;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+}
+
+.solapa {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 100px solid #bc8a5f;
+}
+
+section { padding: 50px 20px; border-bottom: 1px solid #ddd; }

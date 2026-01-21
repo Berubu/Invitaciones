@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Boda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="sobre-container">
+        <div class="sobre" onclick="abrirCarta()">
+            <div class="solapa"></div>
+            <div class="carta">
+                <p>Haz clic para abrir 💌</p>
+            </div>
+        </div>
+    </div>
+
+    <main id="contenido-boda" class="hidden">
+        <section id="bienvenida">
+            <p>¡Bienvenidos a nuestra boda!</p>
+            <h1>Ana & Luis</h1>
+        </section>
+
+        <section id="padrinos">
+            <h2>Nuestros Padrinos</h2>
+            <p>Nombre de Padrino y Madrina</p>
+        </section>
+
+        <section id="cronograma">
+            <h2>Itinerario</h2>
+            <ul>
+                <li>17:00 - Ceremonia 💍</li>
+                <li>19:00 - Banquete 🥂</li>
+                <li>21:00 - Fiesta 💃</li>
+            </ul>
+        </section>
+
+        <section id="detalles">
+            <h3>Código de Vestimenta</h3>
+            <p>Formal / Etiqueta</p>
+            <h3>Mesa de Regalos</h3>
+            <p>Liverpool: 123456</p>
+        </section>
+
+        <section id="asistencia">
+            <h2>Confirmar Asistencia</h2>
+            <form id="rsvp-form">
+                <input type="text" placeholder="Tu nombre" required>
+                <button type="submit">Confirmar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
